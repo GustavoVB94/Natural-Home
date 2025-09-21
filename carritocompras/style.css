@@ -1,0 +1,382 @@
+/* ==========================
+   PALETA DE COLORES Terracota + Beige
+   ========================== */
+:root {
+  --bs-primary: #d2691e;    /* Terracota */
+  --bs-secondary: #F2EFE7;  /* Beige */
+  --bs-light: #fff8f0;      /* Fondo claro */
+  --bs-dark: #3e2c2c;       /* Texto oscuro */
+  --bs-body-bg: #fffdf9;    /* Fondo general */
+  --bs-body-color: var(--bs-dark);
+}
+
+/* ==========================
+   REDEFINIR BOOTSTRAP
+   ========================== */
+.text-primary { color: var(--bs-primary) !important; }
+.text-secondary { color: var(--bs-secondary) !important; }
+.text-dark { color: var(--bs-dark) !important; }
+.text-light { color: var(--bs-light) !important; }
+
+.bg-primary { background-color: var(--bs-primary) !important; }
+.bg-secondary { background-color: var(--bs-secondary) !important; }
+.bg-dark { background-color: var(--bs-dark) !important; }
+.bg-light { background-color: var(--bs-light) !important; }
+
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+.btn-primary:hover {
+  background-color: #a0522d !important;
+  border-color: #a0522d !important;
+}
+.btn-secondary {
+  background-color: var(--bs-secondary) !important;
+  color: var(--bs-dark) !important;
+  border: none !important;
+}
+.btn-secondary:hover {
+  background-color: #e6dfcf !important;
+  color: var(--bs-dark) !important;
+}
+
+/* ==========================
+   HEADER Y NAVBAR
+   ========================== */
+   
+/* Carrito */
+header .btn-outline-primary {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #d2691e;
+}
+header .btn-outline-primary i {
+  color: #fff;
+}
+header .btn-outline-primary:hover {
+  background: var(--bs-dark);
+  border-color: var(--bs-secondary);
+}
+
+/* Navbar principal */
+.main-header .navbar {
+  background-color: var(--bs-primary);
+}
+
+.main-header .nav-link:hover {
+  color: var(--bs-secondary) !important;
+}
+
+/* Botón hamburguesa */
+.main-header .navbar-toggler {
+  border: none;
+  background: #fff !important;
+  border-radius: 0.5rem; /* bordes suaves */
+  padding: 0.5rem 0.7rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+.main-header .navbar-toggler:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(210,105,30,0.3); /* halo terracota */
+}
+.main-header .navbar-toggler:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Icono hamburguesa en color terracota */
+.main-header .navbar-toggler-icon {
+  width: 28px;
+  height: 28px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(210,105,30,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Menú hamburguesa desplegado (Glass Effect) */
+.main-header .navbar-collapse {
+  background: rgba(210, 105, 30, 0.6);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  padding: 1rem;
+  border-radius: 0 0 1rem 1rem;
+  text-align: center;
+}
+.main-header .navbar-nav .nav-item {
+  margin: 0.4rem 0;
+}
+.main-header .navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff !important;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.main-header .navbar-nav .nav-link:hover {
+  background-color: rgba(242, 239, 231, 0.7);
+  color: var(--bs-primary) !important;
+}
+.main-header .navbar-collapse hr {
+  border-color: rgba(255, 255, 255, 0.3);
+  margin: 0.8rem 0;
+}
+
+/* ==========================
+   OFFCANVAS
+   ========================== */
+.offcanvas {
+  background-color: var(--bs-light);
+}
+.offcanvas-header {
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+.offcanvas-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.offcanvas .btn-close {
+  filter: invert(1);
+}
+.offcanvas .nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--bs-dark);
+  padding: 0.6rem 0;
+  transition: color 0.2s ease;
+}
+.offcanvas .nav-link:hover {
+  color: var(--bs-primary);
+}
+.offcanvas hr {
+  border-color: var(--bs-secondary);
+  opacity: 0.7;
+  margin: 1rem 0;
+}
+.offcanvas .btn-outline-primary {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offcanvas .btn-outline-primary i {
+  color: var(--bs-primary);
+}
+
+/* ==========================
+   CATEGORÍAS Y BOTONES
+   ========================== */
+.categoria-link {
+  text-decoration: none;
+  color: var(--bs-dark);
+  transition: color 0.3s ease;
+}
+.categoria-link:hover {
+  color: var(--bs-primary);
+}
+.btn-terracota {
+  background-color: var(--bs-primary);
+  color: #fff;
+  border-radius: 50px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.btn-terracota:hover {
+  background-color: var(--bs-secondary);
+  color: var(--bs-primary);
+  border: 1px solid var(--bs-primary);
+}
+
+/* LOGO */
+.logo-horizontal .logo-img {
+  height: 150px;
+  width: auto;
+}
+
+/* TARJETAS DE PRODUCTOS */
+#productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.card {
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid #dbe8da;
+  background-color: var(--bs-light);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1 1 260px;
+  max-width: 320px;
+}
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.card-body {
+  flex-grow: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-body h5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--bs-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-body p { /* Descripción en la tarjeta */
+  margin: 0 0 0.5rem;
+  color: var(--bs-dark);
+}
+.card-body .btn { /* Botón agregar carrito */
+  border-radius: 50px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+/* CARRUSEL */
+#carouselHome img {
+  height: 650px;
+  object-fit: cover;
+}
+
+/* QUIÉNES SOMOS */
+
+.quienes-somos {
+  background-color: var(--bs-light);
+}
+
+.titulo-seccion {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--bs-primary);
+}
+
+.quienes-somos p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--bs-dark);
+}
+
+.quienes-somos .valores li {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Imagen */
+.quienes-somos img {
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.quienes-somos img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.imagenes-producto {
+  position: relative;
+  width: 100%;
+  height: 200px; /* igual a .card-img-top */
+  overflow: hidden;
+}
+
+.imagenes-producto img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* mantiene proporción */
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* Imagen principal siempre visible */
+.imagenes-producto .principal {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Imagen secundaria empieza oculta */
+.imagenes-producto .secundaria {
+  opacity: 0;
+  z-index: 2;
+}
+
+/* Efecto al hacer hover en la tarjeta */
+.card:hover .imagenes-producto .principal {
+  opacity: 0;
+}
+.card:hover .imagenes-producto .secundaria {
+  opacity: 1;
+}
+
+/* RESPONSIVE */
+
+/* XS – SM (0 a 576px): 1 producto por fila */
+@media screen and (min-width: 780px) {
+.full-width-img {
+margin: auto;
+width: 90%;
+}
+ .card-img-top {
+  height: 200px;        /* altura fija moderada */
+  object-fit: cover;    /* recorta la imagen sin deformarla */
+  width: 100%;          /* ocupa todo el ancho */
+}
+
+  /* Header móvil */
+  .main-header .navbar .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;   /* 🔥 centra verticalmente todo */
+    justify-content: space-between;
+  }
+
+ .logo-horizontal {
+  order: 0; /* Logo en el centro de la línea */
+  display: flex;
+  justify-content: center;
+  flex: 1; /* toma espacio proporcional */
+}
+
+  .acciones-header {
+    order: 3; /* Tienda + carrito derecha */
+    display: flex;
+    align-items: center;  /* 🔥 centra los iconos también */
+    gap: 0.5rem;
+    margin-left: auto;
+  }}
+
+
+/* Mobile: mostrar ambas imágenes en columna */
+@media (max-width: 768px) {
+  .imagenes-producto {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .imagenes-producto img.secundaria {
+    position: static;
+    opacity: 1; /* siempre visible */
+  }
+}

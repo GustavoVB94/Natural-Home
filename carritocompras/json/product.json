@@ -1,0 +1,327 @@
+{
+    "productos": [
+        {
+            "nombre": "Budinera de vidrio templado",
+            "precio": 7000,
+            "categoria": "Cocina",
+            "imagenes": [
+                            "img/f4d98669-2143-4973-a6cb-039a8dac6e01.jpg"
+            ]
+        },
+        {
+            "nombre": "Frazada 2 y 1/2",
+            "precio": 18000,
+            "categoria": "Textil",
+            "imagenes": [
+                            "img/f45d9788-896d-487d-b31b-2892284198d4.jpg",
+                            "img/3d78d385-b3fe-4356-84d8-e03fe6e43046.jpg"
+            ]
+        },
+        {
+            "nombre": "Manta nido color natural",
+            "precio": 20000,
+            "categoria": "Textil",
+            "imagenes": [
+                "img/60e2da95-cd7a-429f-8ec9-d383c183f7c4.jpg"
+            ]
+        },
+        {
+            "nombre": "Tender con cuerdas",
+            "precio": 37000,
+            "categoria": "Hogar",
+            "imagenes": [
+                "https://via.placeholder.com/150?text=Tender+con+cuerdas"
+            ]
+        },
+        {
+            "nombre": "Tender de varilla",
+            "precio": 28000,
+            "categoria": "Hogar",
+            "imagenes": [
+                "img/fdcb7f74-c828-4b5f-adb4-570a5ed9b2a0.jpg"
+            ]
+        },
+        {
+            "nombre": "Percherito con broches para ropa interior",
+            "precio": 1500,
+            "categoria": "Hogar",
+            "imagenes": [
+                "img/23cecff6-5461-4902-877e-e5367a80cc08.jpg"
+            ]
+        },
+        {
+            "nombre": "Juego de toallas Franco Valente",
+            "precio": 22000,
+            "categoria": "Baño",
+            "imagenes": [
+                "img/41fe203e-6b17-4287-878e-2d80db0d1351.jpg"
+            ]
+        },
+        {
+            "nombre": "Dispensador para jabón líquido",
+            "precio": 8000,
+            "categoria": "Baño",
+            "imagenes": [
+                "img/be48970e-4a62-493d-83b1-c8d27d392ef6.jpg"
+            ]
+        },
+        {
+            "nombre": "Dispensador para jabón líquido grande",
+            "precio": 12000,
+            "categoria": "Baño",
+            "imagen": [
+                "https://via.placeholder.com/150?text=Dispensador+para+jab"
+            ]
+        },
+        {
+            "nombre": "Frasquito hermético con cucharita de vidrio",
+            "precio": 7000,
+            "categoria": "Cocina",
+            "imagen": [ 
+                "https://via.placeholder.com/150?text=Fresquito+hermético+"
+            ]
+        },
+        {
+            "nombre": "Porta vela",
+            "precio": 7000,
+            "categoria": "Decoración",
+            "imagen": [
+                "https://via.placeholder.com/150?text=Porta+vela"
+            ]
+        },
+        {
+            "nombre": "Sartén Tramontina",
+            "precio": 37000,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Sartén+Tramontina"
+        },
+        {
+            "nombre": "Sartén",
+            "precio": 32000,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Sartén"
+        },
+        {
+            "nombre": "Panquequera con diseños",
+            "precio": 20000,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Panquequera+con+dise"
+        },
+        {
+            "nombre": "Fuente de vidrio 4 L",
+            "precio": 8000,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Fuente+de+vidrio+4+L"
+        },
+        {
+            "nombre": "Juego de cucharas de bambú",
+            "precio": 5500,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Juego+de+cucharas+de"
+        },
+        {
+            "nombre": "Juego platos x12 (4 planos, 4 hondos, 4 postre)",
+            "precio": 60000,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Juego+platos+x12+(4+"
+        },
+        {
+            "nombre": "Plato x30 cm",
+            "precio": 9500,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Plato+x30+cm"
+        },
+        {
+            "nombre": "Fuente blanca",
+            "precio": 5500,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Fuente+blanca"
+        },
+        {
+            "nombre": "Taza infantil",
+            "precio": 2800,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Taza+infantil"
+        },
+        {
+            "nombre": "Alfombra 120x50",
+            "precio": 22000,
+            "categoria": "Hogar",
+            "imagen": "https://via.placeholder.com/150?text=Alfombra+120x50"
+        },
+        {
+            "nombre": "Alfombra 80x50",
+            "precio": 14000,
+            "categoria": "Hogar",
+            "imagen": "https://via.placeholder.com/150?text=Alfombra+80x50"
+        },
+        {
+            "nombre": "Juego x3 fundas grande",
+            "precio": 22000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Juego+x3+fundas+gran"
+        },
+        {
+            "nombre": "Juego x3 fundas chicas",
+            "precio": 14000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Juego+x3+fundas+chic"
+        },
+        {
+            "nombre": "Alfombras 80x50",
+            "precio": 14000,
+            "categoria": "Hogar",
+            "imagen": "https://via.placeholder.com/150?text=Alfombras+80x50"
+        },
+        {
+            "nombre": "Cojin 11 unidades",
+            "precio": 18000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Cojin+11+unidades"
+        },
+        {
+            "nombre": "Juego x3 fundas tamaño grande 120x80",
+            "precio": 22000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Juego+x3+fundas+tama"
+        },
+        {
+            "nombre": "Juego x3 fundas tamaño mediano 80x50",
+            "precio": 14000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Juego+x3+fundas+tama"
+        },
+        {
+            "nombre": "Juego x3 fundas tamaño chico 50x40",
+            "precio": 12000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Juego+x3+fundas+tama"
+        },
+        {
+            "nombre": "Alfombras",
+            "precio": 19000,
+            "categoria": "Hogar",
+            "imagen": "https://via.placeholder.com/150?text=Alfombras"
+        },
+        {
+            "nombre": "Fuente porcelana",
+            "precio": 10000,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Fuente+porcelana"
+        },
+        {
+            "nombre": "Juego x3 taper vidrio herméticos con zócalo",
+            "precio": 22000,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Juego+x3+taper+vidri"
+        },
+        {
+            "nombre": "Bolsa térmica",
+            "precio": 22000,
+            "categoria": "Hogar",
+            "imagen": "https://via.placeholder.com/150?text=Bolsa+térmica"
+        },
+        {
+            "nombre": "Frescos vidrio tope bombo",
+            "precio": 8000,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Frescos+vidrio+tope+"
+        },
+        {
+            "nombre": "Mini heladera",
+            "precio": 40000,
+            "categoria": "Electrodomésticos",
+            "imagen": "https://via.placeholder.com/150?text=Mini+heladera"
+        },
+        {
+            "nombre": "Fuente vidrio con tapa plástica",
+            "precio": 8000,
+            "categoria": "Cocina",
+            "imagen": "https://via.placeholder.com/150?text=Fuente+vidrio+con+ta"
+        },
+        {
+            "nombre": "Manta matrimonial 240x260",
+            "precio": 35000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Manta+matrimonial+24"
+        },
+        {
+            "nombre": "Juego manta cuadrille con 2 fundas 30x50",
+            "precio": 40000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Juego+manta+cuadrill"
+        },
+        {
+            "nombre": "Toallitas manos",
+            "precio": 2800,
+            "categoria": "Baño",
+            "imagen": "https://via.placeholder.com/150?text=Toallitas+manos"
+        },
+        {
+            "nombre": "Cortina baño",
+            "precio": 20000,
+            "categoria": "Baño",
+            "imagen": "https://via.placeholder.com/150?text=Cortina+baño"
+        },
+        {
+            "nombre": "Acolchado King",
+            "precio": 75000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Acolchado+King"
+        },
+        {
+            "nombre": "Sábanas King",
+            "precio": 29000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Sábanas+King"
+        },
+        {
+            "nombre": "Juego x3 alfombra baño",
+            "precio": 35000,
+            "categoria": "Baño",
+            "imagen": "https://via.placeholder.com/150?text=Juego+x3+alfombra+ba"
+        },
+        {
+            "nombre": "Juego x2 alfombra baño",
+            "precio": 25000,
+            "categoria": "Baño",
+            "imagen": "https://via.placeholder.com/150?text=Juego+x2+alfombra+ba"
+        },
+        {
+            "nombre": "Almohadas 50x70 x2",
+            "precio": 37000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Almohadas+50x70+x2"
+        },
+        {
+            "nombre": "Mantas",
+            "precio": 20000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Mantas"
+        },
+        {
+            "nombre": "Mantas premium",
+            "precio": 28000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Mantas+premium"
+        },
+        {
+            "nombre": "Cubrecama Queen blanco con 2 fundas",
+            "precio": 49000,
+            "categoria": "Textil",
+            "imagen": "https://via.placeholder.com/150?text=Cubrecama+Queen+blan"
+        },
+        {
+            "nombre": "Alfombra Roja y Azul",
+            "precio": 8000,
+            "categoria": "Hogar",
+            "imagen": "https://via.placeholder.com/150?text=Alfombra+Roja+y+Azul"
+        },
+        {
+            "nombre": "Alfombra con borde crochet",
+            "precio": 15000,
+            "categoria": "Hogar",
+            "imagen": "https://via.placeholder.com/150?text=Alfombra+con+borde+c"
+        }
+    ]
+}
